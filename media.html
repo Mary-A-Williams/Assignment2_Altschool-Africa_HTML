@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me -Media Page</title>
+</head>
+<body>
+    
+    <h1>Welcome to My Media Page</h1>
+    <h2>A Picture Representing Me!</h2>
+    <!--An Image of Me-->
+    <picture>
+        <source srcset="Assets/image-large.jpeg" media="(min-width: 1024px)">
+        <source srcset="Assets/image-medium.jpeg" media="(min-width: 768px)">
+        <source srcset="Assets/image-small.jpeg" media="(min-width: 320px)">
+        <img src="Assets/image-small.jpeg" alt="A Picture of Me" style="width: auto;">
+    </picture>
+<!--Audio Element-->
+    <h2>Audio Element</h2>
+    <audio controls>
+        <source src="Assets/audio.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+        </audio>
+<!--Video Element-->
+    <h2>Video Element</h2>
+    <p><b>Here is a short information Video about Myself</p>
+    <video width="320" height="240" controls>
+        <source src="Assets/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+    <p>
+        <a href="Table.html">Go to Table Page</a>
+        <a href="index.html">Go to Home Page</a>
+       
+    </p>
+</body>
+</html>
